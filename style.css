@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.size {
+  font-size: 4px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.content {
+  padding: 0 20px;
+  border-left: 5px solid lightgray;
+  padding: 14px;
+}
+
+.content li {
+  line-height: 35px;
+}
+
+li::marker {
+  color: blue;
+  font-size: 25px;
+}
+
+.result {
+  color: blue;
+}
+.error {
+  color: red;
+}
+
+/* Footer section */
+#mypage_footer {
+  background-color: var(--primary-dark);
+  padding: 20px;
+  border-top: 6px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-size: 1.7rem;
+  font-family: var(--font1);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-info {
+  text-align: left;
+}
+
+.footer-info span {
+  font-family: var(--font1);
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.footer-info p {
+  font-size: 1.2rem;
+  font-family: var(--font3);
+}
+
+/* javaScript Styling */
+
+#JavaScript_wrapper h2 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+form label,
+form ::placeholder {
+  font-size: 0.8rem;
+}
+
+.form-group label,
+.form-group input {
+  margin: 10px 0;
+}
+
+/*----------------------- Media Query ------------------*/
+@media only screen and (max-width: 425px) {
+  .leftIcon {
+    font-size: 1rem;
+  }
+
+  .content {
+    font-size: 0.8rem;
+  }
+
+  .size {
+    gap: 11px;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+  }
+
+  .footer-info p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+  .leftIcon {
+    font-size: 1rem;
+  }
+
+  .content {
+    font-size: 0.8rem;
+    margin-left: 30px;
+  }
+
+  .size {
+    gap: 11px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .leftIcon {
+    font-size: 1.5rem;
+  }
+
+  .size {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .content {
+    font-size: 1.2rem;
+  }
+
+  .leftIcon {
+    font-size: 1.5rem;
+  }
+
+  .content li {
+    line-height: 50px;
+  }
+
+  #JavaScript_wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  form label,
+  form ::placeholder {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .content {
+    font-size: 1.4rem;
+  }
+
+  .leftIcon {
+    font-size: 2.2rem;
+  }
+
+  .leftFont {
+    font-size: 1.2rem;
+    width: 160px;
+    font-weight: 600;
+  }
+
+  .content li {
+    line-height: 80px;
+  }
+
+  #JavaScript_wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  form label,
+  form ::placeholder {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .content {
+    font-size: 1.7rem;
+  }
+
+  .leftIcon {
+    font-size: 2.5rem;
+  }
+
+  .leftFont {
+    font-size: 1.5rem;
+    width: 200px;
+    font-weight: 600;
+  }
+
+  .content li {
+    line-height: 80px;
+  }
+
+  #JavaScript_wrapper h2 {
+    font-size: 1.8rem;
+  }
+
+  form label,
+  form ::placeholder {
+    font-size: 1.5rem;
+  }
+}
