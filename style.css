@@ -90,6 +90,15 @@ form ::placeholder {
   margin: 10px 0;
 }
 
+.btnDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.btnDiv button{
+  width: 20%;
+}
+
 
 /*----------------------- Media Query ------------------*/
 @media only screen and (max-width: 425px) {
@@ -135,7 +144,9 @@ form ::placeholder {
     text-align: center;
   }
   
-
+  .btnDiv button{
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 576px) {
@@ -174,6 +185,10 @@ form ::placeholder {
   .form-control::placeholder {
     text-align: center;
   }
+
+  .btnDiv button{
+    width: 50%;
+  }
   
 }
 
@@ -206,6 +221,10 @@ form ::placeholder {
   .form-control::placeholder {
     text-align: center;
   }
+
+  .btnDiv button{
+    width: 40%;
+  }
   
 }
 
@@ -230,6 +249,11 @@ form ::placeholder {
   form ::placeholder {
     font-size: 1.2rem;
   }
+
+  .btnDiv button{
+    width: 30%;
+  }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
