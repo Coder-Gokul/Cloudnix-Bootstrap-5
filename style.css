@@ -200,8 +200,6 @@ form ::placeholder {
   }
 
   .form-text{
-    /* display: flex;
-    justify-content: center; */
     display: none;
   }
   
