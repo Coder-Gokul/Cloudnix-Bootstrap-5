@@ -34,6 +34,9 @@ li::marker {
   color: red;
 }
 
+.required{
+  color: red;
+}
 /* Footer section */
 #mypage_footer {
   background-color: var(--primary-dark);
@@ -87,6 +90,7 @@ form ::placeholder {
   margin: 10px 0;
 }
 
+
 /*----------------------- Media Query ------------------*/
 @media only screen and (max-width: 425px) {
   .leftIcon {
@@ -108,6 +112,30 @@ form ::placeholder {
   .footer-info p {
     font-size: 0.8rem;
   }
+
+  #JavaScript_wrapper .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px !important;
+  }
+
+  .form-group label{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-text{
+    /* display: flex;
+    justify-content: center; */
+    display: none;
+  }
+
+  .form-control::placeholder {
+    text-align: center;
+  }
+  
+
 }
 
 @media only screen and (min-width: 425px) and (max-width: 576px) {
@@ -123,6 +151,30 @@ form ::placeholder {
   .size {
     gap: 11px;
   }
+
+
+  #JavaScript_wrapper .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px !important;
+  }
+
+  .form-group label{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-text{
+    /* display: flex;
+    justify-content: center; */
+    display: none;
+  }
+  
+  .form-control::placeholder {
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -133,6 +185,30 @@ form ::placeholder {
   .size {
     gap: 20px;
   }
+
+
+  #JavaScript_wrapper .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px !important;
+  }
+
+  .form-group label{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-text{
+    /* display: flex;
+    justify-content: center; */
+    display: none;
+  }
+  
+  .form-control::placeholder {
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
