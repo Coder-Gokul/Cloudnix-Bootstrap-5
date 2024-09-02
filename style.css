@@ -139,6 +139,7 @@ form ::placeholder {
   .form-group label{
     display: flex;
     justify-content: center;
+    font-size: 0.8rem;
   }
 
   .form-text{
@@ -179,6 +180,8 @@ form ::placeholder {
   .form-group label{
     display: flex;
     justify-content: center;
+    font-size: 0.9rem;
+
   }
 
   .form-text{
@@ -217,6 +220,7 @@ form ::placeholder {
   .form-group label{
     display: flex;
     justify-content: center;
+    font-size: 0.9rem;
   }
 
   .form-text{
@@ -250,7 +254,10 @@ form ::placeholder {
     font-size: 1.5rem;
   }
 
-  form label,
+  form label{
+    font-size: .9rem;
+  }
+
   form ::placeholder {
     font-size: .8rem;
   }
@@ -284,7 +291,10 @@ form ::placeholder {
     font-size: 1.5rem;
   }
 
-  form label,
+   form label{
+    font-size: 1rem;
+  }
+
   form ::placeholder {
     font-size: .8rem;
   }
@@ -313,8 +323,11 @@ form ::placeholder {
     font-size: 1.8rem;
   }
 
-  form label,
+  form label{
+    font-size: 1.2rem;
+  }
+
   form ::placeholder {
-    font-size: .9rem;
+    font-size: 1rem;
   }
 }
