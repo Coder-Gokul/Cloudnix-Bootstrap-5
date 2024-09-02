@@ -29,9 +29,16 @@ li::marker {
 
 .result {
   color: blue;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-align: center;
 }
 .error {
   color: red;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-align: center;
 }
 
 .required{
@@ -135,8 +142,6 @@ form ::placeholder {
   }
 
   .form-text{
-    /* display: flex;
-    justify-content: center; */
     display: none;
   }
 
@@ -247,7 +252,7 @@ form ::placeholder {
 
   form label,
   form ::placeholder {
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
 
   .btnDiv button{
@@ -281,7 +286,7 @@ form ::placeholder {
 
   form label,
   form ::placeholder {
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
 }
 
@@ -310,6 +315,6 @@ form ::placeholder {
 
   form label,
   form ::placeholder {
-    font-size: 1.5rem;
+    font-size: .9rem;
   }
 }
