@@ -12,61 +12,25 @@
   text-align: justify;
 }
 
-.content {
-  padding: 0 20px;
-  border-left: 5px solid lightgray;
-  padding: 14px;
-}
-
-.content li {
-  line-height: 35px;
-}
-
 li::marker {
   color: blue;
   font-size: 25px;
 }
 
 .result {
-  color: blue;
   font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: .5px;
-  text-align: center;
-}
-.error {
-  color: red;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-align: center;
+  letter-spacing: 0.5px;
 }
 
-.required{
-  color: red;
+.error {
+  letter-spacing: 0.5px;
 }
+
 /* Footer section */
-#mypage_footer {
-  background-color: var(--primary-dark);
-  padding: 20px;
-  border-top: 6px solid var(--primary);
-  border-bottom: 2px solid var(--primary);
-  text-align: center;
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
 
 .footer-title {
   font-size: 1.7rem;
   font-family: var(--font1);
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.footer-info {
-  text-align: left;
 }
 
 .footer-info span {
@@ -82,14 +46,27 @@ li::marker {
 
 /* javaScript Styling */
 
-#JavaScript_wrapper h2 {
-  font-size: 1rem;
-  text-decoration: underline;
+#JavaScript_wrapper h1 {
+  letter-spacing: 2px;
 }
+
+
+#JavaScript_wrapper .container {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  padding: 15px !important;
+}
+
 
 form label,
 form ::placeholder {
   font-size: 0.8rem;
+}
+
+.form-group label{
+  display: flex;
+  justify-content: center;
 }
 
 .form-group label,
@@ -97,12 +74,12 @@ form ::placeholder {
   margin: 10px 0;
 }
 
-.btnDiv{
+.btnDiv {
   display: flex;
   justify-content: center;
 }
 
-.btnDiv button{
+.btnDiv button {
   width: 20%;
 }
 
@@ -129,30 +106,22 @@ form ::placeholder {
     font-size: 0.8rem;
   }
 
-  #JavaScript_wrapper .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px !important;
-  }
-
-  .form-group label{
-    display: flex;
-    justify-content: center;
+  .form-group label {
     font-size: 0.8rem;
   }
 
-  .form-text{
+  .form-text {
     display: none;
   }
 
   .form-control::placeholder {
     text-align: center;
   }
-  
-  .btnDiv button{
+
+  .btnDiv button {
     width: 70%;
   }
+ 
 }
 
 @media only screen and (min-width: 425px) and (max-width: 576px) {
@@ -169,35 +138,21 @@ form ::placeholder {
     gap: 11px;
   }
 
-
-  #JavaScript_wrapper .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px !important;
-  }
-
-  .form-group label{
-    display: flex;
-    justify-content: center;
+  .form-group label {
     font-size: 0.9rem;
-
   }
 
-  .form-text{
-    /* display: flex;
-    justify-content: center; */
+  .form-text {
     display: none;
   }
-  
+
   .form-control::placeholder {
     text-align: center;
   }
 
-  .btnDiv button{
+  .btnDiv button {
     width: 50%;
   }
-  
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -209,32 +164,21 @@ form ::placeholder {
     gap: 20px;
   }
 
-
-  #JavaScript_wrapper .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px !important;
-  }
-
-  .form-group label{
-    display: flex;
-    justify-content: center;
+  .form-group label {
     font-size: 0.9rem;
   }
 
-  .form-text{
+  .form-text {
     display: none;
   }
-  
+
   .form-control::placeholder {
     text-align: center;
   }
 
-  .btnDiv button{
+  .btnDiv button {
     width: 40%;
   }
-  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -254,18 +198,17 @@ form ::placeholder {
     font-size: 1.5rem;
   }
 
-  form label{
-    font-size: .9rem;
+  form label {
+    font-size: 0.9rem;
   }
 
   form ::placeholder {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
-  .btnDiv button{
+  .btnDiv button {
     width: 30%;
   }
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -291,12 +234,12 @@ form ::placeholder {
     font-size: 1.5rem;
   }
 
-   form label{
+  form label {
     font-size: 1rem;
   }
 
   form ::placeholder {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -323,7 +266,7 @@ form ::placeholder {
     font-size: 1.8rem;
   }
 
-  form label{
+  form label {
     font-size: 1.2rem;
   }
 

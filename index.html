@@ -132,14 +132,16 @@
         <!-- right-content Section Start -->
         <div class="tab-content w-75 p-3 h-auto w-100" id="tabContent">
           <div class="tab-pane active" id="objective_content">
-            <p class="description content text-justify">
+            <p
+              class="description content px-3 border-start border-4 text-justify"
+            >
               Proactive MERN stack developer with expertise in React, dedicated
               to creating impactful web applications and staying abreast of the
               latest technologies for ongoing innovation.
             </p>
           </div>
           <div class="tab-pane" id="education_content">
-            <ul class="list content">
+            <ul class="list content px-3 border-start border-4">
               <li>
                 <span>MERN Stack Development - Entri Elevate</span>
                 <span class="year">2023 - 2024</span>
@@ -151,7 +153,7 @@
             </ul>
           </div>
           <div class="tab-pane" id="workExperience_content">
-            <ul class="list content">
+            <ul class="list content px-3 border-start border-4">
               <li>
                 Front-end Developer - Cloudnix
                 <span class="year">2024 - Present</span>
@@ -161,7 +163,7 @@
             </ul>
           </div>
           <div class="tab-pane" id="projects_content">
-            <ul class="list content">
+            <ul class="list content px-3 border-start border-4">
               <li>
                 Restaurant Website
                 <span class="year"
@@ -193,7 +195,7 @@
             </ul>
           </div>
           <div class="tab-pane" id="references_content">
-            <ul class="list content">
+            <ul class="list content px-3 border-start border-4">
               <li>John Doe - Front-end Developer at Tech Corp</li>
               <li>Jane Smith - Senior Manager at XYZ Ltd.</li>
               <li>Michael Brown - Lead Developer at WebWorks</li>
@@ -207,11 +209,11 @@
       <!-- Footer section start -->
       <div
         id="mypage_footer"
-        class="bg-primary text-white text-center p-4 h6 text-uppercase rounded"
+        class="bg-primary text-white text-center p-4 h6 text-uppercase rounded d-flex align-items-center justify-content-center"
       >
         <footer>
-          <div class="footer-title">Contact Info</div>
-          <div class="footer-info">
+          <div class="footer-title mb-4 fw-bold">Contact Info</div>
+          <div class="footer-info text-start">
             <p class="number"><span>Phone:</span>+91 7339357500</p>
             <p><span>Email:</span> gokulraj@cloudnix.com</p>
           </div>
@@ -226,17 +228,19 @@
         id="JavaScript_wrapper"
         class="d-flex flex-column align-items-center gap-5"
       >
-        <h1 class="text-decoration-underline">JavaScript</h1>
+        <h1 class="fw-bolder">JavaScript</h1>
 
         <!-- Max Function Form -->
         <div
           class="container px-md-5 px-0 border border-3 border-primary-subtle rounded p-4 bg-primary-subtle"
         >
-          <h2>Find Max of Two Numbers</h2>
+          <h2 class="text-center fs-5">Find Max of Two Numbers</h2>
           <form id="maxForm" class="row g-3">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="num1">Num 1:<span class="required">*</span></label>
+                <label for="num1"
+                  >Num 1:<span class="text-danger">*</span></label
+                >
                 <input
                   type="number"
                   id="num1"
@@ -249,7 +253,9 @@
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="num2">Num 2:<span class="required">*</span></label>
+                <label for="num2"
+                  >Num 2:<span class="text-danger">*</span></label
+                >
                 <input
                   type="number"
                   id="num2"
@@ -261,12 +267,16 @@
               </div>
             </div>
             <div class="col-12 btnDiv">
-              <button type="submit" class="btn btn-primary">
-                Find Max
-              </button>
+              <button type="submit" class="btn btn-primary">Find Max</button>
             </div>
-            <div id="maxResult" class="result"></div>
-            <div id="maxError" class="error"></div>
+            <div
+              id="maxResult"
+              class="result text-primary text-center fw-bold"
+            ></div>
+            <div
+              id="maxError"
+              class="error text-danger text-center fw-medium"
+            ></div>
           </form>
         </div>
 
@@ -274,12 +284,12 @@
         <div
           class="container px-md-5 px-0 border border-3 border-primary-subtle rounded p-4 bg-primary-subtle"
         >
-          <h2>Reverse a String</h2>
+          <h2 class="text-center fs-5">Reverse a String</h2>
           <form id="reverseForm" class="row g-3">
             <div class="col-md-12">
               <div class="form-group">
                 <label for="stringInput"
-                  >String:<span class="required">*</span></label
+                  >String:<span class="text-danger">*</span></label
                 >
                 <input
                   type="text"
@@ -296,8 +306,14 @@
                 Reverse String
               </button>
             </div>
-            <div id="reverseResult" class="result"></div>
-            <div id="reverseError" class="error"></div>
+            <div
+              id="reverseResult"
+              class="result text-primary text-center fw-bold"
+            ></div>
+            <div
+              id="reverseError"
+              class="error text-danger text-center fw-medium"
+            ></div>
           </form>
         </div>
 
@@ -305,12 +321,12 @@
         <div
           class="container px-md-5 px-0 border border-3 border-primary-subtle rounded p-4 bg-primary-subtle"
         >
-          <h2>Find the Largest Word</h2>
+          <h2 class="text-center fs-5">Find the Largest Word</h2>
           <form id="largestWordForm" class="row g-3">
             <div class="col-md-12">
               <div class="form-group">
                 <label for="wordInput"
-                  >Words:<span class="required">*</span></label
+                  >Words:<span class="text-danger">*</span></label
                 >
                 <input
                   type="text"
@@ -320,9 +336,11 @@
                   required
                   autocomplete="on"
                 />
-                <small class="form-text text-muted"
-                  >(Enter the words separated by comma)</small
-                >
+                <div class="text-center">
+                  <small class="form-text text-muted"
+                    >(Enter the words separated by comma)</small
+                  >
+                </div>
               </div>
             </div>
             <div class="col-12 btnDiv">
@@ -330,8 +348,14 @@
                 Find Largest Word
               </button>
             </div>
-            <div id="largestWordResult" class="result"></div>
-            <div id="largestWordError" class="error"></div>
+            <div
+              id="largestWordResult"
+              class="result text-primary text-center fw-bold"
+            ></div>
+            <div
+              id="largestWordError"
+              class="error text-danger text-center fw-medium"
+            ></div>
           </form>
         </div>
 
@@ -339,11 +363,13 @@
         <div
           class="container px-md-5 px-0 border border-3 border-primary-subtle rounded p-4 bg-primary-subtle"
         >
-          <h2>Save User Details</h2>
+          <h2 class="text-center fs-5">Save User Details</h2>
           <form id="cookiesForm" class="row g-3">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="name">Name:<span class="required">*</span></label>
+                <label for="name"
+                  >Name:<span class="text-danger">*</span></label
+                >
                 <input
                   type="text"
                   id="name"
@@ -356,7 +382,9 @@
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="phone">Phone:<span class="required">*</span></label>
+                <label for="phone"
+                  >Phone:<span class="text-danger">*</span></label
+                >
                 <input
                   type="text"
                   id="phone"
@@ -367,7 +395,7 @@
                 />
               </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 text-center">
               <small class="form-text text-muted"
                 >(Details will remain saved when the page reloads)</small
               >
@@ -377,8 +405,14 @@
                 Save
               </button>
             </div>
-            <div id="cookiesError" class="error"></div>
-            <div id="cookiesResult" class="result"></div>
+            <div
+              id="cookiesError"
+              class="error text-danger text-center fw-medium"
+            ></div>
+            <div
+              id="cookiesResult"
+              class="result text-primary text-center fw-bold"
+            ></div>
           </form>
         </div>
       </div>
@@ -407,7 +441,13 @@
           </div>
           <div class="modal-body">The footer animation has been completed.</div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-ok" data-bs-dismiss="modal">Cancel</button>
+            <button
+              type="button"
+              class="btn btn-secondary btn-ok"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
             <button
               type="button"
               class="btn btn-primary btn-ok"
@@ -420,7 +460,11 @@
       </div>
     </div>
 
-    <script src="js/jquery.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jqueryCode.js"></script>
     <script src="js/script.js"></script>
     <script
