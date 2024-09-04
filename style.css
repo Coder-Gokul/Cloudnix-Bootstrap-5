@@ -51,14 +51,6 @@ li::marker {
 }
 
 
-#JavaScript_wrapper .container {
-  /* display: flex; */
-  flex-direction: column;
-  align-items: center;
-  padding: 15px !important;
-}
-
-
 form label,
 form ::placeholder {
   font-size: 0.8rem;
@@ -74,10 +66,6 @@ form ::placeholder {
   margin: 10px 0;
 }
 
-.btnDiv {
-  display: flex;
-  justify-content: center;
-}
 
 .btnDiv button {
   width: 20%;
